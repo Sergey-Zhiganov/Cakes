@@ -302,7 +302,7 @@ namespace Тортики
                 }
             }
             Console.Clear();
-            File.AppendAllText("C:\\Users\\User\\Desktop\\orders.txt",$"\n{save}");
+            File.AppendAllText("orders.txt",$"\n{save}");
             Console.WriteLine("Заказ сделан. Сделать ещё один заказ?");
             Console.WriteLine("  Да");
             Console.WriteLine("  Нет");
